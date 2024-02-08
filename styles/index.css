@@ -1,0 +1,205 @@
+.body {
+    border: 0px;
+    margin: 0px;
+}
+.page-wrapper > .header {
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+}
+
+.page-wrapper > .header > .left-pane {
+    padding: 10px 25px;
+}
+.page-wrapper > .header > .left-pane > .logo img {
+    width: auto;
+    height: 35px;
+}
+
+.page-wrapper > .header > .center-pane {
+    padding: 0px 30px;
+}
+
+.page-wrapper > .header > .center-pane > .nav-text p{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1.2em;
+    color: #cea135;
+    margin: 0;
+}
+
+.page-wrapper > .header > .center-pane > .nav-links {
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    font-size: 1.2em;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: bolder;
+}
+
+.page-wrapper > .header > .center-pane > .nav-links a{
+    text-decoration: none;
+    padding-right: 10px;
+    color: white;
+    
+}
+
+.page-wrapper > .header > .center-pane > .nav-links p{
+    padding: 0px 10px 0px 15px;
+    color: gray;
+    margin: 0;
+}
+
+.page-wrapper > .header > .center-pane > .nav-links i{
+    color: gray;
+    padding-top: 5px;
+}
+
+.page-wrapper > .header > .right-pane {
+    display: flex;
+    font-size: 1.2em;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: bolder;
+    flex: 1;
+    padding-right: 10px;
+}
+
+.page-wrapper > .header > .right-pane > .search-icon i{
+    color: gray;
+    font-size: 1.5em;
+    padding: 0px 20px;
+}
+
+.page-wrapper > .header > .right-pane > .create {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-wrapper > .header > .right-pane > .button {
+    background-color: #636363;
+    border-radius: 5px;
+}
+
+.page-wrapper > .header > .right-pane p{
+    color: white;
+    padding: 5px;
+    margin: 10px;
+}    
+
+.page-wrapper > .header > .right-pane > .create i{
+    color: green;
+    padding-right: 15px;
+    font-size: 1.3em;
+}
+
+.page-wrapper > .header > .right-pane > .log-in {
+    margin-right: 10px;
+}
+
+.page-wrapper > .content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
+    background-image: linear-gradient(to right, #636363, black);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: lightgrey;
+}
+
+.page-wrapper > .content > .content-description {
+    margin: 50px;
+    padding: 20px 70px 20px 20px;
+}
+
+.page-wrapper > .content > .content-description > .description-text p1{
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.page-wrapper > .content > .content-description > .description-text i{
+    color: #ebb73b;
+    font-size: 1.5em;
+}
+
+.page-wrapper > .content > .content-description > .description-text span{
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+.page-wrapper > .content > .content-description > .description-text p2{
+    font-size: 1.8em;
+}
+
+.page-wrapper > .content > .content-description > .description-btns {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.page-wrapper > .content > .content-description > .description-btns > .sign-up-btn {
+    color: black;
+    background-color: aqua;
+    border-radius: 3px;
+    padding: 15px;
+}
+
+.page-wrapper > .content > .content-description > .description-btns > .learn-more-btn {
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    padding: 15px;
+    font-weight: bolder;
+    margin-left: 15px;
+}
+
+.page-wrapper > .content > .content-img {
+    margin-top: 30px;
+}
+
+.page-wrapper > .content > .content-img p3{
+    margin-left: 10px;
+    color: white;
+    font-size: 1.3em;
+}
+
+.page-wrapper > .content > .content-img span{
+    color: skyblue;
+}
+
+.page-wrapper > .content > .content-img img {
+    margin-top: 10px;
+    width: auto;
+    height: 500px;
+}
+
+.page-wrapper > .footer {
+    background-color: #636363;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.page-wrapper > .footer > .footer-btn {
+    border: solid 1px lightgrey;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    flex: 1;
+}
+
+.page-wrapper > .footer > .footer-btn p1{
+    font-size: 1.3em;
+}
+
+.page-wrapper > .footer > .footer-btn p2{
+    font-size: 1.7em;
+    font-weight: bolder;
+}
